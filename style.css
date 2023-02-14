@@ -1,0 +1,72 @@
+body {
+    background: rgb(238,110,241);
+    background: radial-gradient(circle, rgba(238,110,241,1) 0%, rgba(70,252,173,1) 100%); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+#container {
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+header {
+    background-color: azure;
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-img{
+    /* height: 100%; */
+    background: rgb(238,110,241);
+    background: radial-gradient(circle, rgba(238,110,241,1) 0%, rgba(70,252,173,1) 100%);
+    padding: 10%;
+    position: relative;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+header:hover .image {
+    opacity: 0.3;
+}
+
+header:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    /* background-color: white; */
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 46px;
+}
+
