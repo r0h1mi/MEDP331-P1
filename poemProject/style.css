@@ -1,0 +1,35 @@
+body {
+ background:rgb(208, 143, 209);
+ color:#fff;
+ margin:0 0 0 18pt;
+ font-family:Courier New, Monospace;
+ font-size:16pt;
+}
+a {
+ color:#117;
+ text-decoration:none;
+}
+#main {
+ padding-top:18px;
+ width:70%;
+}
+#main div {
+ font-weight:normal;
+ padding-bottom:9px;
+}
+#info {
+ top:0;
+ right:0;
+ bottom:0;
+ position:absolute;
+ height:100%;
+ width:25%;
+ color:#333;
+ background: rgb(208, 143, 209);
+    background: radial-gradient(circle, rgb(229, 159, 230) 0%, rgb(157, 221, 193) 100%);
+ margin-left:6px;
+ border-left:thin #000 solid;
+ border-bottom:thin #000 solid;
+ padding:9px;
+ font-size:80%
+}
